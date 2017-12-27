@@ -14,7 +14,7 @@
   {% endif %}
 
   <ul class=entries>
-  {% for entry in entries %}
+  {% for entry in entries | reverse %}
     <li><h2>{{ entry.title }}</h2>{{ entry.text|safe }}
   {% else %}
     <li><em>Unbelievable.  No entries here so far</em>
