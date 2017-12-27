@@ -3,3 +3,4 @@
 .idea/*
 _*
 flaskr.egg-info/*
+__pycache__/*
